@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<!-- This is the template file. Any code written here will automatically be carried onto the files that extend from this file(eg: home.html, account.html) -->
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Matthew Jacobsens Website</title>
+</head>
+<header class="title">
+    <h1>Matthew Jacobsen</h1>
+</header>
+<div class="sidenav" style="width:10%">
+    <a id="home" href="/" class="w3-bar-item w3-button">Home</a>
+    <a id="projects" href="projects" class="w3-bar-item w3-button">Projects</a>
+    <a id="research" href="research" class="w3-bar-item w3-button">Research</a>
+    <a id="resume" href="resume" class="w3-bar-item w3-button">Resume</a>
+</div>
+{% block body %} 
+{% endblock %}
+</html>
