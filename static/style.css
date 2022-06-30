@@ -1,6 +1,11 @@
 * {
     font-family: 'Courier New';
+    color: white;
     background-color: black;
+    box-sizing: border-box;
+    /*outline-width: 2px;
+    outline-color: aqua;
+    outline-style: solid;*/
 }
 p {
     color:aqua;
@@ -13,17 +18,45 @@ h1 {
     text-align: center;
     font-size: 60px;
     font-weight:lighter;
-  }
+    margin-bottom: 0px;
+    border-color: lawngreen;
+    border-style: double;
+}
+h2 {
+    font-weight: lighter;
+    width: 33%;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+.sub_head {
+    text-align: center;
+    width: 60%;
+    display: inline-flex;
+}
+
+.click_link:hover {
+    font-size: 30px;
+    color: lawngreen;
+}
+
 .title {
     background-color: white;
 }
 .sidenav {
+    position:sticky;
     overflow: hidden;
-    max-width:min-content;
+    width: 10%;
+    float: left;
+    display:list-item;
+}
+
+.w3-bar-item {
+    vertical-align: auto;
+    width: 100%
 }
 
 .sidenav a:hover {
-    text-align: left;
     font-size: 40px;
 }
 
@@ -39,3 +72,12 @@ a {
 .sidenav .active {
     color:lawngreen;
 }
+
+body {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: 33%;
+  }
